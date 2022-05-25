@@ -11,9 +11,8 @@
     ],
     "require": {
         "php": ">=7.2",
-        "astrotomic/php-twemoji": "dev-main"
+        "astrotomic/php-twemoji": "^0.2.2"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Zhuchunshu\\EmojiParse\\": "src/Emoji"

@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "913fbde325903a1c30225b3b214449b6",
+    "content-hash": "d58bb90f492d1ad7cdd303851f3a0088",
     "packages": [
         {
             "name": "astrotomic/php-twemoji",
-            "version": "dev-main",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Astrotomic/php-twemoji.git",
@@ -34,7 +34,6 @@
             "suggest": {
                 "spatie/emoji": "*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -87,10 +86,8 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "astrotomic/php-twemoji": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
