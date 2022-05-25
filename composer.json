@@ -1,0 +1,22 @@
+{
+    "name": "zhuchunshu/emoji-parse",
+    "description": "emoji parse",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhuchunshu",
+            "email": "laravel@88.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "astrotomic/php-twemoji": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Zhuchunshu\\EmojiParse\\": "src/Emoji"
+        }
+    }
+}
